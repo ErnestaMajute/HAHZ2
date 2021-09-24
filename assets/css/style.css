@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
 
+
+body {
+    background-color: black;
+}
+
 h1,
 h2,
 h3,
@@ -31,18 +36,23 @@ h4 {
 }
 
 .nav-selection:hover {
-	background-color: black;
-	color:white !important;
+	background-color: rgb(255, 255, 255);
+	color:rgb(0, 0, 0) !important;
 }
 
 
 
 .shipping-row {
-	background:linear-gradient(0deg, rgb(22, 22, 22), rgb(19, 18, 18))
+	background:linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255))
 }
 
 .winter-image {
 	max-height: 700px !important;
+}
+
+.filtered {
+    filter: opacity(80%);
+    filter: saturate(180%);
 }
 
 .image-container {
@@ -102,6 +112,8 @@ h4 {
     min-width: 188px !important;
 	
 }
+
+
 
 .left-middlend {
 	position: absolute;
