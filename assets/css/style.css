@@ -52,7 +52,7 @@ h4 {
 }
 
 .filtered {
-    filter: opacity(90%) saturate(180%);
+    filter: opacity(100%) saturate(180%);
 }
 
 .image-container {
@@ -94,8 +94,7 @@ h4 {
 	min-width: 100%;
   	min-height: 100%;
 }
- 
- 
+
 @media screen and (min-width: 480px) {
    .block {width: 100%}
 }
@@ -110,10 +109,7 @@ h4 {
 
 .custom-btn {
     min-width: 188px !important;
-	
 }
-
-
 
 .left-middlend {
 	position: absolute;
