@@ -13,7 +13,8 @@ h4 {
 }
 
 .image-header {
-	font-family: 'Arimo', sans-serif;;
+	font-family: 'Arimo', sans-serif;
+    text-shadow:2px 2px rgb(184, 184, 184);
 }
 
 .dropdown {
@@ -51,8 +52,7 @@ h4 {
 }
 
 .filtered {
-    filter: opacity(80%);
-    filter: saturate(180%);
+    filter: opacity(90%) saturate(180%);
 }
 
 .image-container {
